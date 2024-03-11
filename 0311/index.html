@@ -25,6 +25,83 @@
 
 
 <body>
+    <script>
+        //HTML CSS (not a programming language)
+        //JavaScript  new topic and this is a standalone language (it is a programming language)
+        // BScript
+        //JavaScript was first called LiveScript
+        //JAva and JavaScript do not have a strong relationship with each other, they just changed the name of LiveScript
+        //not a type safe language (not strict)
+        // JavaScript popular ()
+        //rule to javascript to make it type safe
+
+
+        //s1
+        "use strict";//this makes the code behave more like C# so it lets us know if something is wrong
+        // define variable 
+        {//walls, block, small world
+            //const age1;//datatype is undefined, it's flexible, local
+            let age2;//local variable, local 
+            //var v1;//global variable
+            age2 = 20;//age2 is a number variable now 
+            age2 = 128.8;// now age2 is a double
+            age2 = 'tom';//" " age2 is now a string
+            age2 = ``;
+
+            let name = "tom";
+            let age = 20;
+
+            let str = `The name is ${name}. The age is ${age}`;
+
+            console.log(str);//
+            //alert(str);
+
+            let stu;
+            //object, dictionary
+            stu = {
+                name: "tom",
+                age: 20,
+                grade: 96.6,
+            };
+
+            console.log(stu.grade);
+
+            let arr1;///local undefined
+            arr1 = ["tom", "Jack"];
+            console.log(arr1.length);
+            console.log(arr1[1]);
+
+            //define function
+            //way 1, no let 
+            function func1(p1, p2)
+            {
+                return p1 + p2;//return is not mandatory
+            }
+            //way 2. Arrow function
+            let func2 = (p1, p2) =>
+            {
+                return p1 * p2;
+            };
+
+            console.log(func1(2.3, 3.0));
+            console.log(func2(2.3, 3.0));
+
+        }
+
+    </script>
+
+    <script>
+        //s2
+        "use strict";
+        {
+            //age2 = 20;
+            v1 = 20;
+        }
+
+
+    </script>
+
+
     <div id="div1"></div>
     <img id="img1" src="head1.png"/>
     <img id="img2" src="b.svg"/>
